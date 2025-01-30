@@ -5,7 +5,9 @@
     "type": "module",
     "scripts": {
         "build": "tsc -w",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "vitest",
+        "test:c": "vitest run --coverage",
+        "lint": "eslint ."
     },
     "keywords": [],
     "author": "",
